@@ -38,7 +38,6 @@ $result = $conn->query($sql);
                                 <td style='padding: 10px; border: 1px solid #ddd;'>".$row['title']."</td>
                                 <td style='padding: 10px; border: 1px solid #ddd;'>".$row['author']."</td>
                                 <td style='padding: 10px; border: 1px solid #ddd;'>
-                                    <a href='update_book.php?id=".$row['id']."' style='color: #4CAF50; text-decoration: none; font-weight: bold;'>Update</a> | 
                                     <a href='delete_book.php?id=".$row['id']."' style='color: red; text-decoration: none; font-weight: bold;'>Delete</a>
                                 </td>
                             </tr>";
